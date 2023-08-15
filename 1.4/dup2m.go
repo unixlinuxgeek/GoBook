@@ -30,7 +30,9 @@ func main() {
 		}
 		// Решение задачи 1.4 !!!
 		for s, i := range counts {
-			fmt.Println(i, s)
+			if i > 1 {
+				fmt.Println(i, s)
+			}
 		}
 	}
 }
